@@ -1,0 +1,2 @@
+/*! 2016 Baidu Inc. All Rights Reserved */
+define("product/toolbar",[],function(){var t={init:function(){this.bind()},bind:function(){var t=$(".tool-bar"),e=$(".shop-position"),i=e.offset().top?e.offset().top+290:502;$(".tool-bar .top").on("click",function(){$("html,body").animate({scrollTop:0},700)}),$(window).on("scroll",function(){if((document.documentElement.scrollTop||document.body.scrollTop)>=i)t.show();else t.hide()})}};t.init()});
