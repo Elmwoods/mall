@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:60:"F:\wamp\www\tp5\admin\index\view\goods\product_category.html";i:1461860552;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:60:"F:\wamp\www\tp5\admin\index\view\goods\product_category.html";i:1462980885;}*/ ?>
 ﻿<!DOCTYPE HTML>
 <html>
 <head>

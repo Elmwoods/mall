@@ -21,7 +21,7 @@
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/static/h-ui/css/style.css" />
 <!--[if IE 6]>
 <script type="text/javascript" src="__STATIC__/admin/http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
-<script>DD_belatedPNG.fix('*');</script>
+<!--<script>DD_belatedPNG.fix('*');</script>-->
 <![endif]-->
 <title>H-ui.admin v2.4</title>
 <meta name="keywords" content="H-ui.admin v2.4,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
@@ -94,7 +94,7 @@
 				<ul>
 					<li><a _href="__STATIC__/admin/product-brand.html" data-title="品牌管理" href="__STATIC__/admin/javascript:void(0)">品牌管理</a></li>
 					<li><a _href="{:Url('goods/product_category')}" data-title="分类管理" href="javascript:void(0)">分类管理</a></li>
-					<li><a _href="__STATIC__/admin/product-list.html" data-title="产品管理" href="__STATIC__/admin/javascript:void(0)">产品管理</a></li>
+					<li><a _href="{:Url('goods/product_list')}" data-title="产品管理" href="javascript:void(0)">产品管理</a></li>
 				</ul>
 			</dd>
 		</dl>
@@ -125,9 +125,9 @@
 			<dt><i class="Hui-iconfont">&#xe62d;</i> 管理员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a _href="__STATIC__/admin/admin-role.html" data-title="角色管理" href="__STATIC__/admin/javascript:void(0)">角色管理</a></li>
-					<li><a _href="__STATIC__/admin/admin-permission.html" data-title="权限管理" href="__STATIC__/admin/javascript:void(0)">权限管理</a></li>
-					<li><a _href="__STATIC__/admin/admin-list.html" data-title="管理员列表" href="__STATIC__/admin/javascript:void(0)">管理员列表</a></li>
+					<li><a _href="{:url('users/admin_role')}" data-title="角色管理" href="javascript:void(0)">角色管理</a></li>
+					<li><a _href="{:url('users/admin_permission')}" data-title="权限管理" href="javascript:void(0)">权限管理</a></li>
+					<li><a _href="{:url('users/admin_list')}" data-title="管理员列表" href="javascript:void(0)">管理员列表</a></li>
 				</ul>
 			</dd>
 		</dl>
@@ -135,7 +135,7 @@
 			<dt><i class="Hui-iconfont">&#xe61a;</i> 系统统计<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 			<dd>
 				<ul>
-					<li><a _href="__STATIC__/admin/charts-1.html" data-title="折线图" href="__STATIC__/admin/javascript:void(0)">折线图</a></li>
+					<li><a _href="__STATIC__/admin/charts_1.html" data-title="折线图" href="__STATIC__/admin/javascript:void(0)">折线图</a></li>
 					<li><a _href="__STATIC__/admin/charts-2.html" data-title="时间轴折线图" href="__STATIC__/admin/javascript:void(0)">时间轴折线图</a></li>
 					<li><a _href="__STATIC__/admin/charts-3.html" data-title="区域图" href="__STATIC__/admin/javascript:void(0)">区域图</a></li>
 					<li><a _href="__STATIC__/admin/charts-4.html" data-title="柱状图" href="__STATIC__/admin/javascript:void(0)">柱状图</a></li>
